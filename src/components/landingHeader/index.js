@@ -24,7 +24,7 @@ const index = () => {
               </p>
               <br />
               <br />
-              <a href="https://www.ringsavvy.com/get-a-quote/"><button className='landing-nav-button'>GET A QUOTE</button></a>
+              <button className='landing-nav-button'><a href="https://www.ringsavvy.com/get-a-quote/"GET A QUOTE></a></button>
             </Col>
           </Row>
         </div>
