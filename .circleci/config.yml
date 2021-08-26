@@ -34,7 +34,7 @@ jobs:
           name: Pull cPanel remote changes into origin remote
 
           command: git pull cpanel UN
-=======
+
 
       - run:
           name: Install node modules
