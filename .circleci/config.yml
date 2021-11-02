@@ -1,7 +1,7 @@
 version: 2
 jobs:
   pull-and-build:
-    working_directory: ~/ringsavvy-website
+    # working_directory: ~/ringsavvy-website
     docker:
       - image: circleci/node:10-browsers-legacy
     steps:
@@ -16,7 +16,7 @@ jobs:
             - '97:73:ed:06:2f:29:97:e6:1d:12:3e:fc:ba:ed:82:23'
             - '83:1e:ce:f5:22:9c:c2:ef:d2:55:ab:11:54:ca:80:a4'
 
-        - run:
+      - run:
           name: Add user
           command: |
             git config --global user.name "answeringLegal"
