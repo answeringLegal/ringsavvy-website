@@ -26,7 +26,7 @@ jobs:
           name: Run build
           command: npm run build
 
-      - run: sudo apt-get install rsync -y
+      # - run: sudo apt-get install rsync -y
 
       - run: 
           name: create zip 
