@@ -26,11 +26,11 @@ jobs:
           name: Run build
           command: npm run build
 
+      - run: sudo apt-get install rsync -y
+
       - run: 
           name: create zip 
           command: zip -r ~/ringsavvy-website/build.zip build
-
-      - run: sudo apt-get install rsync -y
 
       - store_artifacts:
           path: ~/ringsavvy-website/dist.zip
