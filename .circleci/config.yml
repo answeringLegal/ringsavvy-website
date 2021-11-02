@@ -36,12 +36,12 @@ jobs:
           path: ~/ringsavvy-website/dist.zip
           destination: dist.zip
 
-      - run: ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
+      # - run: ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
       # Finally, upload your files to server.
-      - run: 
-          name: deploy
-          command: rsync -avce ssh --delete ./dist/ $USER@$SSH_HOST:2020/home/ringsavvy/repositories/ringsavvy-website/
+      # - run: 
+      #     name: deploy
+      #     command: rsync -avce ssh --delete ./dist/ $USER@$SSH_HOST:2020/home/ringsavvy/repositories/ringsavvy-website/
 
 
       
@@ -55,4 +55,4 @@ workflows:
           filters:
             branches:
               only:
-                - alfa
+                - feature/circleci-cicd
