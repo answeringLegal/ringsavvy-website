@@ -54,7 +54,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            git push cpanel alfa
+            git push cpanel feature/circleci-cicd
 
       # - run: 
       #     name: create zip 
