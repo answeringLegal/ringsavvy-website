@@ -3,7 +3,7 @@ jobs:
   pull-and-build:
     working_directory: ~/ringsavvy-website
     docker:
-      - image: cimg/node:12.22.7
+      - image: circleci/node:8
     steps:
       - checkout
       - restore_cache:
@@ -26,7 +26,7 @@ jobs:
           name: Run build
           command: npm run build
 
-      # - run: sudo apt-get install rsync -y
+      - run: sudo apt install -y rsync zip unzip
 
       - run: 
           name: create zip 
@@ -36,7 +36,7 @@ jobs:
           path: ~/ringsavvy-website/dist.zip
           destination: dist.zip
 
-      # - run: ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
+      - run: ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
 
       # Finally, upload your files to server.
       # - run: 
