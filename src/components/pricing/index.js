@@ -11,7 +11,7 @@ const Pricing = () => {
       id: 1,
       name: 'Small',
       minutes: '50',
-      price: '$200/month',
+      price: '$3.91/min',
       features: [
         '30% overage protection',
         'Every premium feature we offer',
@@ -25,7 +25,7 @@ const Pricing = () => {
       id: 2,
       name: 'Medium',
       minutes: '100',
-      price: '$320/month',
+      price: '$3.30/min',
       features: [
         '25% overage protection',
         'Every premium feature we offer',
@@ -54,33 +54,68 @@ const Pricing = () => {
   const tableData = [
     {
       id: 1,
-      minutes: '200',
-      price: '$580/month',
+      minutes: '50',
+      price: '$3.91/min',
     },
     {
       id: 2,
-      minutes: '300',
-      price: '$817/month',
+      minutes: '75',
+      price: '$3.89/min',
     },
     {
       id: 3,
-      minutes: '400',
-      price: '$922/month',
+      minutes: '100',
+      price: '$3.30/min',
     },
     {
       id: 4,
-      minutes: '500',
-      price: '$1,100/month',
+      minutes: '150',
+      price: '$3.19/min',
     },
     {
       id: 5,
-      minutes: '600',
-      price: '$1,280/month',
+      minutes: '200',
+      price: '$3.08/min',
     },
     {
       id: 6,
-      minutes: '700',
-      price: '$1,470+/month',
+      minutes: '250',
+      price: '$2.95/min',
+    },
+    {
+      id: 7,
+      minutes: '300',
+      price: '$2.82/min',
+    },
+    {
+      id: 8,
+      minutes: '350',
+      price: '$2.70/min',
+    },
+    {
+      id: 9,
+      minutes: '400',
+      price: '$2.48/min',
+    },
+    {
+      id: 10,
+      minutes: '450',
+      price: '$2.42/min',
+    },
+    {
+      id: 11,
+      minutes: '500',
+      price: '$2.37/min',
+    },
+    {
+      id: 12,
+      minutes: '600 - 1,500',
+      price: '$2.30/min',
+    },
+    {
+      id: 13,
+      minutes: '1,500 - 20,000',
+      price: '$2.25/min',
     },
   ];
 
