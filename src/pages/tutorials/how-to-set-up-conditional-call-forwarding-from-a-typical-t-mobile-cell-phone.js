@@ -52,7 +52,7 @@ export default function ConditionalForwardingTMobile({ location }) {
             src='https://www.youtube.com/embed/adK3xz9MSFI'
             frameborder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen=''
+            allowFullScreen=''
           ></iframe>
         </figure>
         <h2>

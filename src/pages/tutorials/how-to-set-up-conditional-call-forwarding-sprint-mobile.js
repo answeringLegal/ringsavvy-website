@@ -52,7 +52,7 @@ export default function ConditionalForwardingSprint({ location }) {
             src='https://www.youtube.com/embed/bvByeg-n4NY'
             frameborder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen=''
+            allowFullScreen=''
           ></iframe>
         </figure>
         <h2>
