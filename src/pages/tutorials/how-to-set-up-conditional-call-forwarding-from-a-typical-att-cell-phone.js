@@ -52,7 +52,7 @@ export default function ConditionalForwardingATT({ location }) {
             src='https://www.youtube.com/embed/6o043LS3Ggk'
             frameborder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen=''
+            allowFullScreen=''
           ></iframe>
         </figure>
         <h2>
