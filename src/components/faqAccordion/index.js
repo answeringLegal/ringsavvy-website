@@ -10,7 +10,7 @@ import * as Styled from './style';
 
 const FaqAccordion = ({ contentData, horizontal = false, primary = false }) => {
   const CtaData = {
-    heading: 'Try Ring Savvy free for 7 days',
+    heading: 'Try Ring Savvy free for 14 days',
     content: [
       'Experience all our phone answering service has to offer without any risk or financial commitment.',
 
