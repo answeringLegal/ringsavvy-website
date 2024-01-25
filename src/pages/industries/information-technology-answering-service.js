@@ -36,7 +36,7 @@ export default function ITService({ location }) {
       ctaLink: '/pricing/',
     },
     {
-      heading: 'Try the service free for 7 days',
+      heading: 'Try the service free for 14 days',
       content:
         'Experience all Ring Savvy has to offer, without paying a cent. All business owners are encouraged to sign up for a free trial with our company.',
       ctaText: 'Start your free trial',
