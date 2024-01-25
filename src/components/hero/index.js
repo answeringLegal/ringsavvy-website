@@ -35,7 +35,7 @@ const Hero = ({
                     src='https://www.youtube.com/embed/4-yfLDEwCFc'
                     frameborder='0'
                     allow='autoplay; encrypted-media'
-                    allowfullscreen
+                    allowFullScreen
                     title='video'
                   />
                 )}
