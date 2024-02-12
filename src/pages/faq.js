@@ -119,7 +119,7 @@ export default function FAQ({ location }) {
       question:
         'Can I customize the information that I receive in my messages?',
       answer:
-        'Absolutely. Just let our support team know what information you’d like our virtual receptionists to gather and passing along to you via message. To reach our support team, simply submit a support ticket here or give us a call at 631-600-1111!',
+        'Absolutely. Just let our support team know what information you’d like our virtual receptionists to gather and passing along to you via message. To reach our support team, simply submit a support ticket here or give us a call at 631-363-1000!',
     },
     {
       question: 'Does Ring Savvy schedule appointments?',
@@ -187,7 +187,7 @@ export default function FAQ({ location }) {
     {
       question: 'How do I start my free trial?',
       answer:
-        'Fill out a form on our sign-up page or call us now at 631-600-1111. If you fill out a form, you’ll be contacted by one of our Savvy customer support managers shortly. If you decide to call in, we’ll always have a live person for you to speak with.',
+        'Fill out a form on our sign-up page or call us now at 631-363-1000. If you fill out a form, you’ll be contacted by one of our Savvy customer support managers shortly. If you decide to call in, we’ll always have a live person for you to speak with.',
     },
     {
       question: 'Can I use all of Ring Savvy’s features during the free trial?',
@@ -207,7 +207,7 @@ export default function FAQ({ location }) {
     {
       question: 'Can I make changes to my account during the free trial?',
       answer:
-        'Absolutely. You can always make changes to your account on the fly. Just submit a support ticket here or give us a call at 631-600-1111.',
+        'Absolutely. You can always make changes to your account on the fly. Just submit a support ticket here or give us a call at 631-363-1000.',
     },
     {
       question: 'What happens at the end of my free trial?',
@@ -230,12 +230,12 @@ export default function FAQ({ location }) {
     {
       question: 'How do I make adjustments to my account?',
       answer:
-        'Simple! Just submit a support ticket here or give us a call at 631-600-1111! Customer support is available 24/7/365.',
+        'Simple! Just submit a support ticket here or give us a call at 631-363-1000! Customer support is available 24/7/365.',
     },
     {
       question: 'Can I change how my calls are answered?',
       answer:
-        'Yes. Your greetings and protocol are always customizable, and can be changed instantly when you call in. Simply, submit a support ticket here or give us a call at 631-600-1111, and let us know how you would like your calls handled going forward.',
+        'Yes. Your greetings and protocol are always customizable, and can be changed instantly when you call in. Simply, submit a support ticket here or give us a call at 631-363-1000, and let us know how you would like your calls handled going forward.',
     },
     {
       question: 'My landline calls are not being picked up at all!',

@@ -39,7 +39,7 @@ export default function SignUp({ location }) {
           <Heading>Thank you for choosing us!</Heading>
           <p>
             To finish getting setup, call us at{' '}
-            <a href='tel:631-600-1111'>631-600-1111</a> or schedule an
+            <a href='tel:631-363-1000'>631-363-1000</a> or schedule an
             appointment with us below!
           </p>
           <EmbedContainer id='formEmbed' />

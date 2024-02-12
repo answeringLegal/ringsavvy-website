@@ -135,7 +135,7 @@ export default function BilingualAnsweringService({ location }) {
           Invest in a Bilingual Answering Service today, and allow your business
           to reach its full potential. Get started with a free 10-day trial of
           Ring Savvy now by filling out this sign-up form or calling
-          631-600-1111.
+          631-363-1000.
         </p>
       </SecondaryContent>
       <Testimonials />

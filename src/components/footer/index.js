@@ -34,7 +34,7 @@ const Footer = () => (
           <SupportMenu />
         </NavigationCol>
       </Styled.FooterNavigation>
-      <span>©&nbsp;2020 Ring Savvy, Inc.</span>
+      <span>©&nbsp;{new Date().getFullYear()} Ring Savvy, Inc.</span>
     </Wrapper>
   </Styled.Footer>
 );

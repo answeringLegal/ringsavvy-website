@@ -116,7 +116,7 @@ export default function TwentyFourSevenService({ location }) {
         <p>
           With Ring Savvy’s 100 percent customizable features, the possibilities
           for better serving your customers over the phone are truly endless. To
-          learn more, call 631-600-1111, and speak with of our Savvy customer
+          learn more, call 631-363-1000, and speak with of our Savvy customer
           service reps.
         </p>
       </SecondaryContent>
