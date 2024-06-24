@@ -65,7 +65,7 @@ export default function EmploymentOpportunities({ location }) {
           number below.
         </p>
 
-        <h2>631-400-8888</h2>
+        <h2>631-892-2004</h2>
 
         <h3>Career</h3>
 
