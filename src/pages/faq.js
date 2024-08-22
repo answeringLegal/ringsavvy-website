@@ -144,45 +144,6 @@ export default function FAQ({ location }) {
     },
   ];
 
-  const pricingAndBilling = [
-    {
-      question:
-        'Ring Savvy’s pricing page says it’s pay as you go — what does that mean?',
-      answer:
-        'It means the amount you pay each month will depend on your business’ monthly call volume. Our monthly minimum is $100, which will get you 50 minutes of live phone answering. Once you get past your first 50 minutes, your per minute cost will change, as you begin to exceed certain minute benchmarks.',
-    },
-    {
-      question: 'Does Ring Savvy charge extra for anything?',
-      answer:
-        'The only feature we charge extra for is new customer intake. All of our other features come at no additional cost.',
-    },
-    {
-      question: 'Is there a contract if I want to use Ring Savvy?',
-      answer:
-        'With Ring Savvy you never have to sign any contracts. You can cancel our service at any time with zero financial penalty.',
-    },
-    {
-      question: 'How much does Ring Savvy cost?',
-      answer:
-        'This will depend on how many minutes you end up using. Remember that the amount you pay can vary from month-to-month. If there is a month where your business requires a lower than usual amount of phone coverage, your monthly bill will end up being lower as well. It all depends on your call volume.',
-    },
-    {
-      question: 'How is my monthly price determined?',
-      answer:
-        'You’ll only be charged for the amount of minutes our virtual receptionist staff spends talking with your callers on the phone. We never round minutes up, and our receptionists have been trained to handle your calls with a high level of efficiency. We also won’t charge you for calls from telemarketers or for calls unrelated to your business. Our goal is to make sure you always get the most bang for your buck!',
-    },
-    {
-      question: 'Does Ring Savvy charge by the minute or by the call?',
-      answer:
-        'Ring Savvy charges per minute, and you only pay for what you use!',
-    },
-    {
-      question: 'Is there a monthly minimum?',
-      answer:
-        'Yes. Our monthly minimum is $100, which gets you 50 minutes of service.',
-    },
-  ];
-
   const freeTrial = [
     {
       question: 'How do I start my free trial?',
@@ -300,9 +261,6 @@ export default function FAQ({ location }) {
                 Virtual Receptionists
               </Category>
               <Category onClick={() => setActive(services)}>Services</Category>
-              <Category onClick={() => setActive(pricingAndBilling)}>
-                Pricing and Billing
-              </Category>
               <Category onClick={() => setActive(freeTrial)}>
                 Free Trial
               </Category>
