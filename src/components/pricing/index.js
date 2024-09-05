@@ -13,7 +13,6 @@ const Pricing = () => {
       minutes: '50',
       price: '$3.91/min',
       features: [
-        '30% overage protection',
         'Every premium feature we offer',
         '24/7 live support',
         '24 hour bilingual receptionist',
@@ -27,7 +26,6 @@ const Pricing = () => {
       minutes: '100',
       price: '$3.30/min',
       features: [
-        '25% overage protection',
         'Every premium feature we offer',
         '24/7 live support',
         '24 hour bilingual receptionist',
@@ -39,7 +37,6 @@ const Pricing = () => {
       id: 3,
       name: 'Custom',
       features: [
-        'Overage protection according to your minute usage',
         'A minute package specific to your business needs',
         '24/7 live support',
         '24 hour bilingual receptionist',
