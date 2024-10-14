@@ -21,7 +21,7 @@ export default function EmploymentOpportunities({ location }) {
         />
       </Helmet>
       <Hero heading={heroData.heading} />
-      <SecondaryContent maxWidth='780px'>
+      {/*    <SecondaryContent maxWidth='780px'>
         <h2>Start your career with an answering service industry leader!</h2>
 
         <p>
@@ -116,6 +116,107 @@ export default function EmploymentOpportunities({ location }) {
           </li>
           <li>3 weeks paid leave after 3 – 5 years</li>
           <li>4 weeks paid leave after 5 plus years</li>
+        </ul>
+      </SecondaryContent> */}
+      <SecondaryContent maxWidth='780px'>
+        <h2>Job Description</h2>
+
+        <p>
+          As a Virtual Receptionist, job duties include answering incoming calls
+          for law offices and other businesses with a polite and professional
+          demeanor. The objective is to provide customer service to callers by
+          taking messages and relaying them appropriately in a timely manner.
+        </p>
+
+        <h3>Required Skills:</h3>
+
+        <ul>
+          <li>Typing: 45+ WPM</li>
+          <li>Interpersonal Skills</li>
+          <li>Oral and Written Communication Skills</li>
+          <li>Reading Skills</li>
+          <li>Customer Relations</li>
+          <li>Customer Service</li>
+          <li>Professionalism</li>
+          <li>Organization</li>
+          <li>Time Management</li>
+          <li>Computer Literacy</li>
+          <li>Telephone Etiquette</li>
+        </ul>
+        <p>
+          <strong> Addittional Skills:</strong> Bilingual Spanish/English a plus,
+          but not required.
+        </p>
+
+        <p><strong> Hours: </strong>
+          We are a 24/7/365 company. We are currently looking for full time
+          availability.
+        </p>
+
+        <p>
+          <strong>Experience:</strong> No call center experience required.
+          Willing to train appropriate candidates.
+        </p>
+
+        <p>
+          <strong>Compensation:</strong> Hourly; Beginning at $16-$17 an hour
+        </p>
+
+        <p>
+          <strong>Job Types:</strong> Full-time
+        </p>
+
+        <p>
+          <strong>Benefits:</strong> Monthly contests with the ability to win
+          prizes and gift cards to local restaurants and stores, major medical,
+          accrued paid time off, and Employee Assistance Program.
+        </p>
+
+        <p>
+          <strong>Equipment:</strong> Must have fast speed internet connection,
+          computer or laptop, and access to a router with an open port.
+        </p>
+
+        <p>
+          {' '}
+          <strong>*Please submit resume for consideration*</strong>
+        </p>
+
+        <p>Job Types: Full-time, Part-time</p>
+
+        <p>Pay: $16.00 - $17.00 per hour</p>
+
+        <p>Expected Hours: 20 – 40 per week</p>
+
+        <h3>Benefits:</h3>
+
+        <ul>
+          <li>401(k)</li>
+          <li>401(k) matching</li>
+          <li>Dental insurance</li>
+          <li>Employee assistance program</li>
+          <li>Flexible schedule</li>
+          <li>Health insurance</li>
+          <li>Health savings account</li>
+          <li>Paid time off</li>
+          <li>Referral program</li>
+          <li>Vision insurance</li>
+        </ul>
+
+        <h3>Schedule:</h3>
+
+        <ul>
+          <li>8 hour shift</li>
+          <li>Day shift</li>
+          <li>Monday to Friday</li>
+          <li>Night shift</li>
+          <li>Weekends as needed</li>
+        </ul>
+
+        <h3>Location:</h3>
+        <ul>
+          <li>Florida</li>
+          <li>North Carolina</li>
         </ul>
       </SecondaryContent>
     </Layout>
